@@ -1,1 +1,43 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #6B4803;
+    color: #D97314;
+    margin: 0;
+    overflow-x: hidden;
+}
+.hero {
+  text-align: center;
+}
+.martens {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.card {
+    max-width: 300px;
+    margin: auto;
+    padding: 2rem;
+    background: #E6E634;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+}
+img {
+    width: 300px;
+    height: 400px;
+}
 
+.button {
+    background-color: #D97314;
+    color: #0b0b0b;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.ground {
+    text-align: center;
+    margin-top: 2rem;
+}
