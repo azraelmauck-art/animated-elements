@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-weight: 700;
     background-color: #6B4803;
     color: #D97314;
     margin: 0;
@@ -28,6 +28,8 @@ img {
 }
 
 .button {
+    font-family: inherit;
+    font-weight: 700;
     background-color: #D97314;
     color: #0b0b0b;
     padding: 1rem 2rem;
