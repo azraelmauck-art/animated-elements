@@ -7,6 +7,7 @@ body {
 }
 .hero {
   text-align: center;
+  padding: 1rem;
 }
 .martens {
     display: flex;
@@ -16,17 +17,23 @@ body {
 }
 .card {
     max-width: 300px;
+    color: black;
     margin: auto;
-    padding: 2rem;
-    background: #E6E634;
+    padding: 1rem;
+    background: #D97314;
     text-align: center;
-    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+    transition: transform 0.8s ease, background-color 0.4s ease;
+    animation: bounce 1s ease-in-out infinite;
+}
+.card:hover {
+  transform: scale(1.1);
+  color: #D97314;
+  background-color: #E6E634;
 }
 img {
     width: 300px;
     height: 400px;
 }
-
 .button {
     font-family: inherit;
     font-weight: 700;
@@ -35,10 +42,21 @@ img {
     padding: 1rem 2rem;
     font-size: 1.2rem;
     border: none;
+    border-radius: 2rem;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform .5s ease;
+}
+.button:hover {
+  transform: scale(1.2);
+  color: #D97314;
+  background-color: #E6E634;
 }
 .ground {
     text-align: center;
     margin-top: 2rem;
+}
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
 }
