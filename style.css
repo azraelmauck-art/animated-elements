@@ -5,6 +5,12 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
 .hero {
   text-align: center;
   padding: 1rem;
